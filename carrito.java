@@ -7,13 +7,16 @@ public class carrito {
         Random n = new Random(15);
         Random j = new Random(21);
         Random longitud = j;
-        for (int i = 0; i< longitud ; i++) {
+        for (int i = 0; longitud > i; i++) {
             carri.add(n.nextInt(15));
-
-            System.out.println(carri);
+            System.out.println(carri[i]);
 
         }
+
     }
+    public static llenar();
+
+    return int carri;
 
     public static sumaraprecio();
 
