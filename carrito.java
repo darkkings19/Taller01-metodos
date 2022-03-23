@@ -3,24 +3,19 @@ import java.util.Random;
 public class carrito {
     public static void main(String[] args) {
 
-        int[] carri = new int[];
+        int[] carri = new int[21];
         Random n = new Random(15);
         Random j = new Random(21);
         Random longitud = j;
-        for (int i = 0; longitud > i; i++) {
-            carri.add(n.nextInt(15));
-            System.out.println(carri[i]);
-
+        System.out.println(carri);
+        for (int i = 0; i< args.length; i++) {
         }
-
     }
-    public static llenar();
+    //public static llenar();
 
-    return int carri;
+    //public static sumaraprecio();
 
-    public static sumaraprecio();
+    //public static multiplicar();
 
-    public static multiplicar();
-
-    public static sumarprecios();
+    //public static sumarprecios();
 }
